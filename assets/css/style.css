@@ -419,7 +419,7 @@ html {
     }
     #nav > li .subnav {
         position: initial;
-        background-color: #000;
+        background-color: rgba(204, 204, 204, 0.205);
     }
     #nav .subnav li {
         padding: 5px 28px;
