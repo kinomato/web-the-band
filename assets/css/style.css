@@ -355,13 +355,40 @@ html {
     color: #000;
     opacity: 0.6;
 }
-
+/* tablet */
 @media screen and (min-width:740px) and (max-width:1023px) {
     #content .content-section {
         padding-right: 16px;
         padding-left: 16px;
     }
+    .contact-info {
+        line-height: 2;
+    }
 }
+/* tablet and mobile */
+@media screen and (max-width:1023px) {
+    .btn {
+        padding: 15px 16px;
+    }
+    #nav .subnav a {
+        padding: 5px 12px;
+    }
+    .contact-form .form-control {
+        padding: 15px;
+    }
+    #footer .socials-list {
+        font-size: 48px;
+        
+    }
+    #footer .socials-list a {
+        margin: 0 8px;
+    }
+    #footer .copyright {
+        padding: 12px 0;
+        display: inline-block;
+    }
+}
+/* mobile */
 @media screen and (max-width:739px) {
     /* common */
     .full-width-s,
@@ -405,5 +432,8 @@ html {
     }
     .btn {
         text-align: center;
+    }
+    .contact-form {
+        margin-top: 32px;
     }
 }
